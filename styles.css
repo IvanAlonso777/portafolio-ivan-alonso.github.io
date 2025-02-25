@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to bottom, #4b0082, #8a2be2); /* Degradado morado */
+    background-image: url('gaming-background.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Color del texto para que sea legible */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Recuadro para todo el contenido de la página */
+.container {
+    background-color: rgba(180, 100, 255, 0.6); /* Morado claro con transparencia */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Centrar el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 90%; /* Para que no ocupe toda la pantalla en dispositivos grandes */
+    width: 1200px; /* Máximo ancho en pantallas grandes */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Sombra para mayor contraste */
+}
+
+/* Ajustar el texto dentro del recuadro */
+.container h1, 
+.container h2, 
+.container h3, 
+.container p {
+    text-align: center;
+    color: white; /* Texto en blanco para mejor contraste */
+}
+
+.justificado {
+    text-align: justify !important;  /* Asegura que se aplique */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.titulo-con-imagen {
+    display: flex;  /* Alinear imagen y texto en la misma línea */
+    align-items: center;  /* Centrar verticalmente */
+}
+
+.img-ivan {
+    width: 80px;  /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 15px;  /* Espacio entre la imagen y el texto */
+    border-radius: 50%;  /* Hace la imagen circular (opcional) */
+}
+
+h1 {
+    margin: 0;  /* Evita márgenes extra */
+}
+
+.logos {
+    text-align: center; /* Centra las imágenes horizontalmente */
+}
+
+.texto-imagen {
+    display: flex; /* Coloca el texto y la imagen en la misma línea */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre el texto y la imagen */
+}
